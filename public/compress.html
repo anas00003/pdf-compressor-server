@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>The PDF Buddy - Fast, Free &amp; Powerful PDF Tools</title>
+<link href="logo.png" rel="icon" type="image/x-icon"/>
+<!-- Font Awesome for icons -->
+<script crossorigin="anonymous" src="https://kit.fontawesome.com/5bc094a131.js"></script>
+<!-- Google Fonts - Poppins -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<!-- Meta tags for SEO -->
+<meta content="Free online PDF tools to merge, split, compress, add borders, and rotate PDF files. No registration required. Fast and secure PDF processing." name="description"/>
+<meta content="PDF tools, merge PDF, split PDF, compress PDF, rotate PDF, PDF border, free PDF tools" name="keywords"/>
+<meta content="The PDF Buddy" name="author"/>
+<!-- Open Graph / Social Media Meta Tags -->
+<meta content="The PDF Buddy – Fast, Free &amp; Powerful PDF Tools" property="og:title"/>
+<meta content="Free online PDF tools to merge, split, compress, add borders, and rotate PDF files. No registration required." property="og:description"/>
+<meta content="website" property="og:type"/>
+<meta content="https://thepdfbuddy.in" property="og:url"/>
+<meta content="https://thepdfbuddy.in/images/social-preview.jpg" property="og:image"/>
+<link href="styles.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"/>
+</head>
+<body>
+<header>
+<div class="header-container">
+<a class="logo" href="index.html">
+<img alt="PDF Buddy Logo" src="logo.png"/>
+<span>The PDF Buddy</span>
+</a>
+<button class="mobile-menu-button" id="mobileMenuButton">
+<i class="fas fa-bars"></i>
+</button>
+<nav class="nav-links" id="navLinks"><a href="index.html">Home</a><a href="index.html#tools">Tools</a><a href="blog/pdf-signing-tips-2025.html">Blog</a><a href="contact.html">Contact</a><a class="cta-button" href="index.html#tools" style="background-color: var(--primary); color: #ffffff; font-weight: 600; padding: 0.6rem 1.2rem; border-radius: var(--radius-sm);">Start Now</a><button aria-label="Toggle dark mode" class="dark-mode-toggle" id="darkModeToggle"><i class="fas fa-moon"></i></button></nav>
+</div>
+</header>
+<main style="background-color: var(--bg); padding: 4rem 1rem;">
+<section class="tool-detail-section" id="compress" style="max-width: 960px; margin: auto;">
+<div class="section-header" style="text-align: center; margin-bottom: 2rem;">
+<h1 style="font-size: 2.5rem; color: var(--primary); margin-bottom: 0.5rem;">
+<i class="fas fa-compress-alt"></i> Compress PDF
+                </h1>
+<p style="font-size: 1.125rem; color: var(--text-light); max-width: 700px; margin: auto;">Reduce PDF file size while maintaining quality.</p>
+</div>
+<div style="display: flex; justify-content: center;">
+<div class="tool-card" style="width: 100%; max-width: 640px; padding: 2rem; border-radius: var(--radius-lg); background-color: var(--card-bg); border: 1px solid var(--border); box-shadow: var(--shadow-sm);">
+<label for="compressFileInput" style="display: block; padding: 2rem; border: 2px dashed var(--border); border-radius: var(--radius-md); text-align: center; cursor: pointer; margin-bottom: 1.5rem;">
+<i class="fas fa-cloud-upload-alt" style="font-size: 2rem; color: var(--primary); margin-bottom: 0.5rem;"></i>
+<p style="font-size: 1rem; color: var(--text); font-weight: 600;">Drag &amp; drop PDF files here or click to browse</p>
+<p style="font-size: 0.9rem; color: var(--text-light); margin-top: 0.25rem;">Supports multiple files (Max 20MB each)</p>
+</label>
+<input accept=".pdf" class="file-input" id="compressFileInput" multiple="" style="display: none;" type="file"/>
+<div aria-live="polite" class="file-list" id="compressFileList" style="margin-bottom: 1rem;"></div>
+<hr style="border: none; border-top: 1px solid var(--border); margin: 1.5rem 0;"/>
+<button disabled="" id="compressBtn" style="width: 100%; padding: 0.75rem 1rem; font-size: 1rem; border-radius: var(--radius-md); background-color: var(--primary); color: white; border: none; cursor: pointer;">
+<i class="fas fa-compress-alt"></i> Compress PDFs
+                    </button>
+<div class="status" id="compressStatus" role="status" style="margin-top: 1rem; color: var(--text-light); font-size: 0.9rem;"></div>
+</div>
+</div>
+</section>
+</main>
+<footer>
+<div class="footer-container">
+<div class="footer-logo">
+<a class="logo" href="index.html">
+<img alt="PDF Buddy Logo" src="logo.png"/>
+<span>The PDF Buddy</span>
+</a>
+<p class="footer-tagline">Your free, all-in-one PDF solution</p>
+
+
+<div class="social-links">
+<a href="https://twitter.com/intent/tweet?text=Check out this awesome PDF tool!&amp;url=https://thepdfbuddy.in" rel="noopener noreferrer" target="_blank">
+<i class="fab fa-twitter"></i>
+</a>
+<a href="https://www.facebook.com/sharer/sharer.php?u=https://thepdfbuddy.in" rel="noopener noreferrer" target="_blank">
+<i class="fab fa-facebook-f"></i>
+</a>
+<a href="https://www.instagram.com/thepdfbuddy" rel="noopener noreferrer" target="_blank">
+<i class="fab fa-instagram"></i>
+</a>
+<a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://thepdfbuddy.in&amp;title=Check out this awesome PDF tool!" rel="noopener noreferrer" target="_blank">
+<i class="fab fa-linkedin-in"></i>
+</a>
+<a href="https://api.whatsapp.com/send?text=Check out this awesome PDF tool!%20https://thepdfbuddy.in" rel="noopener noreferrer" target="_blank">
+<i class="fab fa-whatsapp"></i>
+</a>
+</div>
+
+
+</div>
+<div class="footer-links">
+<div class="footer-column">
+<h4>Tools</h4>
+<ul>
+<li><a href="merge.html">Merge PDF</a></li>
+<li><a href="split.html">Split PDF</a></li>
+<li><a href="compress.html">Compress PDF</a></li>
+<li><a href="border.html">Add Border</a></li>
+<li><a href="rotate.html">Rotate PDF</a></li>
+</ul>
+</div>
+<div class="footer-column">
+<h4>Company</h4>
+<ul>
+<li><a href="about.html">About Us</a></li>
+<li><a href="blog/pdf-signing-tips-2025.html">Blog</a></li>
+<li></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</div>
+<div class="footer-column">
+<h4>Legal</h4>
+<ul>
+<li><a href="privacy.html">Privacy Policy</a></li>
+<li></li>
+<li></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="footer-bottom">
+<p>© 2023 The PDF Buddy. All rights reserved.</p>
+</div>
+</footer>
+
+<script>
+    // Mobile menu toggle (keep existing)
+    const mobileMenuButton = document.getElementById('mobileMenuButton');
+    const navLinks = document.getElementById('navLinks');
+    mobileMenuButton.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+        mobileMenuButton.innerHTML = navLinks.classList.contains('active') 
+            ? '<i class="fas fa-times"></i>' 
+            : '<i class="fas fa-bars"></i>';
+    });
+    
+    // Close mobile menu when clicking a link (keep existing)
+    document.querySelectorAll('.nav-links a').forEach(link => {
+        link.addEventListener('click', () => {
+            if (window.innerWidth <= 768) {
+                navLinks.classList.remove('active');
+                mobileMenuButton.innerHTML = '<i class="fas fa-bars"></i>';
+            }
+        });
+    });
+    
+    // Dark mode toggle (keep existing)
+    const darkModeToggle = document.getElementById('darkModeToggle');
+    darkModeToggle.addEventListener('click', () => {
+        document.body.classList.toggle('dark-mode');
+        const isDark = document.body.classList.contains('dark-mode');
+        localStorage.setItem('darkMode', isDark);
+        darkModeToggle.innerHTML = isDark 
+            ? '<i class="fas fa-sun"></i>' 
+            : '<i class="fas fa-moon"></i>';
+        if (isDark) {
+            document.documentElement.style.setProperty('--primary', '#3b82f6');
+            document.documentElement.style.setProperty('--primary-dark', '#2563eb');
+            document.documentElement.style.setProperty('--secondary', '#6366f1');
+            document.documentElement.style.setProperty('--text', '#f9fafb');
+            document.documentElement.style.setProperty('--text-light', '#d1d5db');
+            document.documentElement.style.setProperty('--bg', '#111827');
+            document.documentElement.style.setProperty('--card-bg', '#1f2937');
+            document.documentElement.style.setProperty('--border', '#374151');
+        } else {
+            document.documentElement.style.setProperty('--primary', '#2563eb');
+            document.documentElement.style.setProperty('--primary-dark', '#1d4ed8');
+            document.documentElement.style.setProperty('--secondary', '#4f46e5');
+            document.documentElement.style.setProperty('--text', '#1f2937');
+            document.documentElement.style.setProperty('--text-light', '#6b7280');
+            document.documentElement.style.setProperty('--bg', '#f9fafb');
+            document.documentElement.style.setProperty('--card-bg', '#ffffff');
+            document.documentElement.style.setProperty('--border', '#e5e7eb');
+        }
+    });
+    
+    // Check for saved dark mode preference (keep existing)
+    if (localStorage.getItem('darkMode') === 'true') {
+        document.body.classList.add('dark-mode');
+        darkModeToggle.innerHTML = '<i class="fas fa-sun"></i>';
+        document.documentElement.style.setProperty('--primary', '#3b82f6');
+        document.documentElement.style.setProperty('--primary-dark', '#2563eb');
+        document.documentElement.style.setProperty('--secondary', '#6366f1');
+        document.documentElement.style.setProperty('--text', '#f9fafb');
+        document.documentElement.style.setProperty('--text-light', '#d1d5db');
+        document.documentElement.style.setProperty('--bg', '#111827');
+        document.documentElement.style.setProperty('--card-bg', '#1f2937');
+        document.documentElement.style.setProperty('--border', '#374151');
+    }
+    
+      // Enhanced PDF Compression Logic
+  const compressFileInput = document.getElementById('compressFileInput');
+  const compressBtn = document.getElementById('compressBtn');
+  const compressStatus = document.getElementById('compressStatus');
+  const fileList = document.getElementById('compressFileList');
+  
+  compressFileInput.addEventListener('change', function() {
+    fileList.innerHTML = '';
+    
+    if (!this.files || this.files.length === 0) {
+      compressStatus.textContent = 'No files selected';
+      compressBtn.disabled = true;
+      return;
+    }
+    
+    const file = this.files[0];
+    
+    // Validate file type
+    if (file.type !== 'application/pdf') {
+      compressStatus.textContent = 'Error: Please upload a PDF file';
+      compressBtn.disabled = true;
+      return;
+    }
+    
+    // Validate file size
+    if (file.size > 20 * 1024 * 1024) {
+      compressStatus.textContent = 'Error: File exceeds 20MB limit';
+      compressBtn.disabled = true;
+      return;
+    }
+    
+    // Display file info
+    const fileItem = document.createElement('div');
+    fileItem.className = 'file-item';
+    fileItem.innerHTML = `
+      <i class="fas fa-file-pdf"></i>
+      <span>${file.name} (${(file.size / 1024 / 1024).toFixed(2)} MB)</span>
+    `;
+    fileList.appendChild(fileItem);
+    
+    compressStatus.textContent = 'Ready to compress';
+    compressBtn.disabled = false;
+  });
+  
+  compressBtn.addEventListener('click', async function() {
+    if (!compressFileInput.files || compressFileInput.files.length === 0) {
+      compressStatus.textContent = 'Please select a PDF file first';
+      return;
+    }
+    
+    const file = compressFileInput.files[0];
+    const formData = new FormData();
+    formData.append('pdf', file);
+    
+    try {
+      compressStatus.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Uploading and compressing PDF...';
+      compressBtn.disabled = true;
+      
+      const response = await fetch('/compress', {
+        method: 'POST',
+        body: formData
+      });
+      
+      if (!response.ok) {
+        const error = await response.json().catch(() => ({ error: 'Server error' }));
+        throw new Error(error.error || `Server error: ${response.status}`);
+      }
+      
+      const blob = await response.blob();
+      const url = window.URL.createObjectURL(blob);
+      
+      // Create download link
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `compressed_${file.name.replace('.pdf', '')}.pdf`;
+      document.body.appendChild(a);
+      a.click();
+      
+      // Cleanup
+      setTimeout(() => {
+        window.URL.revokeObjectURL(url);
+        a.remove();
+      }, 100);
+      
+      // Show compression results
+      const originalSize = file.size;
+      const compressedSize = blob.size;
+      const ratio = ((originalSize - compressedSize) / originalSize * 100).toFixed(1);
+      
+      compressStatus.innerHTML = `
+        <i class="fas fa-check-circle" style="color: var(--success)"></i> 
+        Compression successful! Saved ${ratio}% 
+        (${(compressedSize / 1024 / 1024).toFixed(2)}MB → ${(originalSize / 1024 / 1024).toFixed(2)}MB)
+      `;
+      
+    } catch (error) {
+      console.error('Compression error:', error);
+      compressStatus.innerHTML = `
+        <i class="fas fa-times-circle" style="color: var(--error)"></i> 
+        Error: ${error.message}
+      `;
+    } finally {
+      compressBtn.disabled = false;
+    }
+  });
+
+    </script>
+</body>
+</html>
